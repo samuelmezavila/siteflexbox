@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+
+    <script type="text/javascript">
+    window.onload = function(){
+    document.querySelector(".menuMobile").addEventListener("click", function(){
+        if(document.querySelector(".menu nav ul").style.display == 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+        }
+        else {
+            document.querySelector(".menu nav ul").style.display='flex';
+        }
+        });
+    };
+    </script>
+    
+    <title>MEGADETH</title>
+</head>
+<body>
+    <header>
+        <div class="container"> <!--cabeçalho-->
+            <div class="logo">
+                <a href=""><img src="assets/images/logo.png" alt=""></a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div  class="mm_line"></div>
+                        <div  class="mm_line"></div>
+                        <div  class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a class="active" href=""></a>HOME</li>
+                        <li><a href=""></a>TOUR DATES</li>
+                        <li><a href=""></a>SHOP</li>
+                        <li><a href=""></a>MEDIA</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner"> <!--banner-->
+        <div class="container column">
+            <div class="banner_headline">
+                
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">METAL OLD SCHOOL</div>
+                    <div class="banner_desc">Know our history!</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">BAND MEMBERS</div>
+                    <div class="banner_desc">Meet the band members.</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">TOUR COUNTRIES</div>
+                    <div class="banner_desc_tour">USA</div>
+                    <div class="banner_desc_tour">Mexico</div>
+                    <div class="banner_desc_tour">Brazil</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral"> <!--Seção geral do site-->
+        <div class="container">
+        <section>
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">LATEST NEWS</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+                <div class="widget_body flex">
+                
+                    <article>
+                        <a href="">
+                        <div class="news_date">
+                            <div class="news_posted_at">25 APR 20</div>
+                            <div class="news_comments">2</div>
+                        </div>
+                        <div class="news_thumbnail">
+                            <img src="assets/images/news1.jpeg">
+                        </div>
+                        <div class="news_title">DAVE MUSTAINE BEAT CANCER</div>
+                        <div class="news_resume">
+                            “After the radiation, the guy said all of my test results looked amazing. 
+                            ‘You look like you’re in a stage 1 and you’re supposed to be in stage 3 right now.’ 
+                            And then the oncologist said the same thing: ‘You look really strong.’ 
+                            So we kept moving through the process.”
+                        </div>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="">
+                        <div class="news_date">
+                            <div class="news_posted_at">25 APR 20</div>
+                            <div class="news_comments">10</div>
+                        </div>
+                        <div class="news_thumbnail">
+                            <img src="assets/images/news2.jpg">
+                        </div>
+                        <div class="news_title">NEW ALBUM IS READY TO BE RECORDED</div>
+                        <div class="news_resume">
+                            "I think it's a great record. It's very heavy. There's a lot of really fast thrashing stuff. 
+                            And a lot of it is that the vibe is — it feels very cohesive between the four of us."
+                        </div>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="">
+                        <div class="news_date">
+                            <div class="news_posted_at">20 APR 20</div>
+                            <div class="news_comments">8</div>
+                        </div>
+                        <div class="news_thumbnail">
+                            <img src="assets/images/news_3.jpg">
+                        </div>
+                        <div class="news_title">NEW TOUR COMING</div>
+                        <div class="news_resume">
+                            Two of the biggest bands in heavy metal – MEGADETH and LAMB OF GOD – will be 
+                            joining forces on a co-headline tour across North America this year, presented by SiriusXM.  
+                            And to add to the firepower of this already formidable tour, Trivium and In Flames are joining, 
+                            making this THE must-see heavy music package of the year.
+                        </div>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="">
+                        <div class="news_date">
+                            <div class="news_posted_at">19 APR 20</div>
+                            <div class="news_comments">2</div>
+                        </div>
+                        <div class="news_thumbnail">
+                            <img src="assets/images/news_4.jpg">
+                        </div>
+                        <div class="news_title">NEW PLAYLIST</div>
+                        <div class="news_resume">
+                            The new quarantine playlist is now available on all digital streaming platforms!
+                        </div>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">BAND MEMBERS</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+                <div class="widget_body_band">
+                    <div class="mustaine"></div>
+                    <div class="ellefson"></div>
+                    <div class="kiko"></div>
+                    <div class="dirk"></div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">ABOUT US</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+                <div class="widget_body_about"></div>
+                    Megadeth is an American heavy metal band from Los Angeles, California.
+                    <div class="widget_about">Phone: 815-369-5140</div>
+                    <div class="widget_about">Email: contact@megadeth.com</div>
+                    <div class="widget_about">New merch every month.</div>
+                
+            </div>
+        </aside>    
+        </div>
+    </section>
+<footer>
+    
+    <div class="container flexColumn">
+        <div class="footer_menu">
+            <div class="fm_1">
+                <a href=""> JOIN OUR CYBER-ARM</a>
+            </div>
+            <div class="fm_2">
+                <a href="">DISCOGRAPHY</a>
+            </div>
+            <div class="fm_3">
+                <a href="">STORE</a>
+            </div>
+        </div>
+        <div class="footer_area">
+            <div class="footer_area_item">
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Megadeth Contact</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_ft">
+                        Artist Group International<br>
+                        150 E. 58th St. (19th Floor)<br>
+                        New York, NY 10155<br>
+                        contact@megadeth.com
+                    </div>
+                    <div class="socialmedia" id="facebook">
+                        <img class="icone" src="assets/images/facebook.png">
+                    </div>
+                    <div class="socialmedia" id="youtube">
+                        <img class="icone" src="assets/images/youtube.png">
+                    </div>
+                    <div class="socialmedia" id="instagram">
+                        <img class="icone" src="assets/images/instagram.png">
+                    </div>
+                </div>
+            </div>
+            <div class="footer_area_item">
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Posts</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_ft">
+                        <a href="">- Megadeth will do world tour.</a><br><br>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer_area_item">
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Tweets</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_ft">
+                        <a href="">- Celebrate 4/20 with a new limited edition Mary Jane tee & grinder, 
+                            plus free Megadeth lighter with every purchase. 
+                            72 hours only here: https://gtly.to/Tym4BWjf9
+                        </a><br><br>
+                        <a href="">- Celebrate 4/20 with a new limited edition Mary Jane tee & grinder, 
+                            plus free Megadeth lighter with every purchase. 
+                            72 hours only here: https://gtly.to/Tym4BWjf9
+                        </a><br><br>
+                        <a href="">- Celebrate 4/20 with a new limited edition Mary Jane tee & grinder, 
+                            plus free Megadeth lighter with every purchase. 
+                            72 hours only here: https://gtly.to/Tym4BWjf9
+                        </a><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copy">
+            Template de estudos - Samuel Mezavila. 	
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
