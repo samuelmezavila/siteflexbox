@@ -1,4 +1,4 @@
-Front-End - HTML Semântico, Flexbox e Media Queries
+<b>Front-End - HTML Semântico, Flexbox e Media Queries<b>
 
 Template usando HTML e CSS, aplicando conceitos de HTML Semântico, Flexbox e Media Query.
 
